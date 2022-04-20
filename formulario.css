@@ -1,0 +1,60 @@
+
+form{
+    width: 30%;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12%;
+    background-image: url(uno.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+}
+
+   border-radius: 30%;
+}
+label{
+    font-size:12px;
+    display: block;
+    width: 100%;
+    border-radius: 40%;
+}
+
+textarea{
+    resize:vertical;
+    max-height: 300px;
+    min-height: 100px; 
+
+}
+
+input, textarea {
+    margin-bottom:20px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.741);
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid rgb(83, 80, 80);
+}
+input:focus, textarea:focus{
+border: 1.5px solid rgba(132, 155, 255, 0.755);
+}
+input:hover{
+    background: rgba(221, 221, 221, 0.844);
+}
+textarea:hover{
+    background: rgba(221, 221, 221, 0.844);
+}
+
+input[type="submit"]{
+    margin-bottom: 0;
+    background: rgba(74, 171, 235, 0.761) ;
+    color: #000;
+    border:none;
+}
+input[type="submit"]:hover{
+    background:rgba(74, 125, 235, 0.83);
+    cursor: pointer;
+    box-shadow: 0 3px 6px 0 rgb(13, 35, 49) ;
+}
